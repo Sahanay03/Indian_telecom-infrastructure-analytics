@@ -15,6 +15,7 @@ The datasets were obtained from official Government of India open data sources o
 
 •	Bharat Broadband Network Limited (BharatNet)
 
+
 **Data Warehouse Design**
 
 This project employs a star schema data warehouse centered on a Fact Table containing key telecom and infrastructure measures such as total connections, tele-density, wireless subscribers, and Gram Panchayats connected. It includes three Dimension Tables:
@@ -27,13 +28,11 @@ This project employs a star schema data warehouse centered on a Fact Table conta
 
 This structure enables efficient aggregation, trend analysis, and regional performance comparison, making the system suitable for advanced analytics and BI reporting.
 
+
 **Dashboards**
 
-This project features three Power BI dashboards designed for comprehensive telecom analysis. 
+This project features three Power BI dashboards designed for comprehensive telecom analysis. The National Growth dashboard tracks connection trends and technology shifts, while the State-wise Digital Divide visualizes regional infrastructure disparities. Finally, the Infrastructure vs. Usage dashboard correlates Gram Panchayat connectivity with rural impact, providing a data-driven view of digital accessibility across India.
 
-•	National Telecom Growth: Tracks overall telecom expansion and the shift from wireline to wireless technology
-•	State-wise Digital Divide: Highlights regional disparities in telecom penetration and infrastructure
-•	Infrastructure vs Usage: Shows how BharatNet Gram Panchayat connectivity influences telecom adoption
 
 **Tools Used**
 
@@ -44,5 +43,6 @@ This project features three Power BI dashboards designed for comprehensive telec
 **Key Insight**
 
 India’s telecom sector has seen steady growth, largely due to the expansion of wireless connectivity, with increased tele-density indicating better digital access. However, disparities persist, as few states have higher penetration rates compared to Bihar and Assam. The study finds a strong positive correlation between digital infrastructure and telecom usage, suggesting that government investment in broadband, particularly through BharatNet-connected Gram Panchayats, is crucial for enhancing digital inclusion and connectivity.
+
 This project demonstrates how data warehouses enable advanced analytics and AI-ready datasets by integrating large, complex government data into a clean analytical system.
 
