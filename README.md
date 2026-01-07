@@ -30,6 +30,7 @@ This structure enables efficient aggregation, trend analysis, and regional perfo
 **Dashboards**
 
 This project features three Power BI dashboards designed for comprehensive telecom analysis. 
+
 •	National Telecom Growth: Tracks overall telecom expansion and the shift from wireline to wireless technology
 •	State-wise Digital Divide: Highlights regional disparities in telecom penetration and infrastructure
 •	Infrastructure vs Usage: Shows how BharatNet Gram Panchayat connectivity influences telecom adoption
@@ -37,6 +38,7 @@ This project features three Power BI dashboards designed for comprehensive telec
 **Tools Used**
 
 •	Python (Pandas, NumPy), MySQL, Power BI
+
 •	Government of India Open Data
 
 **Key Insight**
